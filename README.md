@@ -22,7 +22,7 @@ This project builds on the original GETA / Only-Train-Once framework.
 To run the code you need to install it separately:
 
 1. Clone the GETA framework from the original repository:
-   [INSERT ORIGINAL GETA REPO URL HERE]
+   [(https://github.com/microsoft/GETA)]
 2. Set up the conda environment from `environment.yml`:
    ```
    conda env create -f environment.yml
