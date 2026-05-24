@@ -100,4 +100,3 @@ All credit for the framework itself goes to the original authors.
 ## Author
 
 Sofus Carstens (s224959), DTU, 2026.
-```
