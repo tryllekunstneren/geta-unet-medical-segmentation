@@ -1,6 +1,3 @@
-Here's the complete README.md ready to copy-paste. I've filled in your name and student number, and left clearly-marked placeholders only where you need to insert the actual GETA repo URL.
-
-```markdown
 # GETA for U-Net Medical Image Segmentation
 
 Code for my BSc thesis at the Technical University of Denmark (DTU),
