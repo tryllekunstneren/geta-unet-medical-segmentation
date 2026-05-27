@@ -37,7 +37,6 @@ src/
   data/          Dataloaders for LGG, BraTS, and ISIC
   training/      Training scripts (GETA, sequential, baselines)
 scripts/         HPC job submission and data download scripts
-docs/            Notes, including the stability-fix patch
 ```
 
 ## Datasets
@@ -85,12 +84,11 @@ The `encdec_small` variant has the same structure as `unet_small`
 but removes the skip connections, used to study their effect on
 compression.
 
-## Stability fix
+## Stability note
 
 During the experiments we found a numerical instability in the QASSO
-optimiser that, in the reference implementation, can stop training
-with an `UnboundLocalError`. A description and a minimal patch are
-provided in `docs/geta_patch.md`.
+optimiser when applying GETA to U-Net, which can stop training. This
+is analysed in detail in the Discussion chapter of the thesis.
 
 ## Acknowledgements
 
