@@ -34,7 +34,7 @@ To run the code you need to install it separately:
 ```
 src/
   models/        U-Net variants and the EncDec variant
-  data/          Dataloaders for LGG, BraTS, and ISIC
+  dataloaders/          Dataloaders for LGG, BraTS, and ISIC
   training/      Training scripts (GETA, sequential, baselines)
 scripts/         HPC job submission and data download scripts
 ```
